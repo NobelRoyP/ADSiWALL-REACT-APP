@@ -17,8 +17,8 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/admin-nobel-roy-p" element={<Admin/>} />
         </Routes>
+        <Header />
       </Router>
-      <Header />
     </div>
   );
 }
