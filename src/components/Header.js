@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './favicon.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-export const Header = () => {
+const Header = () => {
 
     const onSecClick = () => {
         var Menu = document.querySelector('.menu-content')
@@ -50,4 +50,5 @@ export const Header = () => {
         </>
     )
 }
+export default Header
 
