@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 
-export const Contact = () => {
+const Contact = () => {
     return (
         <div className="About-area">
             <h2 className="heading">CONTACT</h2>
@@ -12,3 +12,4 @@ export const Contact = () => {
         </div>
     )
 }
+export default Contact
