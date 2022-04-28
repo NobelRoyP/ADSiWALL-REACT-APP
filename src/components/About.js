@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 
-export const About = () => {
+const About = () => {
     return (
         <div className="About-area">
             <h2 className="heading">About ADSiWALL</h2>
@@ -14,3 +14,4 @@ export const About = () => {
         </div>
     )
 }
+export default About
