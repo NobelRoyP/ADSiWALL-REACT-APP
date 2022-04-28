@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './favicon.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -34,17 +35,17 @@ const Header = () => {
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-                <a href="/" className="h2">ADSiWALL</a>
-                <a href="/about" className="h4 nav-items">About</a>
-                <a href="/contact" className="h4 nav-items">Contact</a>
+                <Link to="/" className="h2">ADSiWALL</Link>
+                <Link to="/about" className="h4 nav-items">About</Link>
+                <Link to="/contact" className="h4 nav-items">Contact</Link>
 
                 <input type="checkbox" className="menu" onClick={onClick} />
                 <input type="checkbox" className="menu-sec" onClick={onSecClick} />
 
                 <div className="menu-content">
-                    <a href="/"><i className="fa fa-home">Home</i></a>
-                    <a href="/about"><i className="fa fa-circle-info">About</i></a>
-                    <a href="/contact"><i className="fa fa-user">Contact</i></a>
+                    <Link to="/"><i className="fa fa-home">Home</i></Link>
+                    <Link to="/about" ><i className="fa fa-circle-info">About</i></Link>
+                    <Link to="/contact" ><i className="fa fa-user">Contact</i></Link>
                 </div>
             </nav>
         </>
