@@ -3,7 +3,7 @@ import '../Admin.css'
 import 'bootstrap'
 import { Link } from 'react-router-dom'
 
-export const Admin = () => {
+const Admin = () => {
     return (
         <div className="admin-area">
             <form>
@@ -14,3 +14,4 @@ export const Admin = () => {
         </div>
     )
 }
+export default Admin
