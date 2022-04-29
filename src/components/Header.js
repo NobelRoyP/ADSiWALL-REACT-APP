@@ -31,8 +31,10 @@ const Header = () => {
 
     const onLinkClick = () => {
         var Menu = document.querySelector('.menu-content')
+        var MenuSec = document.querySelector('.menu-sec')
 
         Menu.style.visibility = "hidden"
+        MenuSec.style.visibility = "hidden"
     }
 
     return (
