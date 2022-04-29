@@ -31,11 +31,13 @@ const Header = () => {
 
     const onLinkClick = () => {
         var Menu = document.querySelector('.menu-content')
+        var MenuSec = document.querySelector('.menu-sec')
         var MenuFirst = document.querySelector('.menu')
 
         Menu.style.visibility = "hidden"
         MenuFirst.style.display = "none"
         MenuFirst.style.pointerEvents = "none"
+        MenuSec.style.visibility = "visible"
     }
 
     return (
