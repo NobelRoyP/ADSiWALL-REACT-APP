@@ -29,6 +29,12 @@ const Header = () => {
 
     }
 
+    const onLinkClick = () => {
+        var Menu = document.querySelector('.menu-content')
+
+        Menu.style.visibility = "hidden"
+    }
+
     return (
         <>
             <nav>
@@ -43,9 +49,9 @@ const Header = () => {
                 <input type="checkbox" className="menu-sec" onClick={onSecClick} />
 
                 <div className="menu-content">
-                    <Link to="/"><i className="fa fa-home">Home</i></Link>
-                    <Link to="/about" ><i className="fa fa-circle-info">About</i></Link>
-                    <Link to="/contact" ><i className="fa fa-user">Contact</i></Link>
+                    <Link to="/" onClick={onLinkClick}><i className="fa fa-home">Home</i></Link>
+                    <Link to="/about" onClick={onLinkClick}><i className="fa fa-circle-info">About</i></Link>
+                    <Link to="/contact" onClick={onLinkClick}><i className="fa fa-user">Contact</i></Link>
                 </div>
             </nav>
         </>
