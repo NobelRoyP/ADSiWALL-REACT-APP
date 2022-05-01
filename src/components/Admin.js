@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Admin = () => {
     return (
         <div className="admin-area">
-            <form name="form1" method="post" data-netlify="true">
+            <form name="form1" method="post" netlify>
                 <input type="text" name="name"/>
                 <button type="submit">Send</button>
             </form>
