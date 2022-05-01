@@ -8,7 +8,7 @@ const Admin = () => {
         <div className="admin-area">
             <form name="form1" method="post" data-netlify="true">
                 <input type="text" name="name"/>
-                <button type="submit"></button>
+                <button type="submit">Send</button>
             </form>
         </div>
     )
