@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Home from "./components/Home";
 import Contact from './components/Contact';
-import Admin from './components/Admin';
+import Admin from './components/add-form.html';
 import './App.css';
 
 function App() {
