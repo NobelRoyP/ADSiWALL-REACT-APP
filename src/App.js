@@ -18,7 +18,6 @@ function App() {
         </Routes>
         <Header />
       </Router>
-      <a href="https://app.netlify.com/teams/nobelroyp12a/overview" className="btn btn-success">Add</a>
     </div>
   );
 }
