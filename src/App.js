@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Header from "./components/Header";
 import About from "./components/About";
 import Home from "./components/Home";
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/admin-nobel-roy-p" element={<Admin/>} />
+          <Link to="./components/add-form.html" className="btn btn-success">Add</Link>
         </Routes>
         <Header />
       </Router>
