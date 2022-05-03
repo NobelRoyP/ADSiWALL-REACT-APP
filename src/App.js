@@ -15,10 +15,10 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
-          <a href="https://app.netlify.com/teams/nobelroyp12a/overview" className="btn btn-success">Add</a>
         </Routes>
         <Header />
       </Router>
+      <a href="https://app.netlify.com/teams/nobelroyp12a/overview" className="btn btn-success">Add</a>
     </div>
   );
 }
