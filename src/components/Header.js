@@ -58,6 +58,7 @@ const Header = () => {
                     <Link to="/about" onClick={onLinkClick}><i className="fa fa-circle-info">About</i></Link>
                     <Link to="/contact" onClick={onLinkClick}><i className="fa fa-user">Contact</i></Link>
                 </div>
+                <a href="https://app.netlify.com/teams/nobelroyp12a/overview" className="btn btn-success">Add</a>
             </nav>
         </>
     )
