@@ -26,6 +26,9 @@ nav a {
     color: white;
     margin-right: 20px;
 }
+nav .btn{
+    margin-bottom: 5px;
+}
 
 nav a:hover {
     color: white;
