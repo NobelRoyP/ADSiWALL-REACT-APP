@@ -156,7 +156,7 @@ nav a:hover {
     }
    nav  .btn {
         position: absolute;
-        right: 0;
+        right: 20px;
    }
 
     .nav-items {
