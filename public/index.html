@@ -30,10 +30,10 @@
 
 <body>
 
-  <form name="add-photo" netlify netlify-honeypot="bot-field" action="/" hidden>
+  <form name="add-photo" method="POST" action="/" netlify netlify-honeypot="bot-field" hidden>
     <input type="text" name="name" />
     <input type="email" name="email" />
-    <input type="text" name="phone-no" />
+    <input type="text" name="phone" />
     <input type="file" id="file" name="photo" multiple>
   </form>
 
