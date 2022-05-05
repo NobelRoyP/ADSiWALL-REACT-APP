@@ -9,7 +9,7 @@ export class Home extends Component {
                 <div className="poster">
                     {
                         Images.map((Image)=>(
-                           <a href={Image.link}><img src={Image.src} alt={Image.title} key={Image.id}/></a>
+                            <img src={Image.src} alt={Image.title} key={Image.id}/>
                         ))
                     }
                 </div>
@@ -18,6 +18,6 @@ export class Home extends Component {
         )
     }
 }
-export default Home 
+export default Home
 
 

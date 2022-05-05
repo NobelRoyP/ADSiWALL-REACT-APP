@@ -49,6 +49,7 @@ const Header = () => {
                 <Link to="/" className="h2">ADSiWALL</Link>
                 <Link to="/about" className="h4 nav-items">About</Link>
                 <Link to="/contact" className="h4 nav-items">Contact</Link>
+                <Link to="/add-photo" className="btn btn-success">Add</Link>
 
                 <input type="checkbox" className="menu" onClick={onClick} />
                 <input type="checkbox" className="menu-sec" onClick={onSecClick} />
@@ -58,7 +59,6 @@ const Header = () => {
                     <Link to="/about" onClick={onLinkClick}><i className="fa fa-circle-info">About</i></Link>
                     <Link to="/contact" onClick={onLinkClick}><i className="fa fa-user">Contact</i></Link>
                 </div>
-                <a href="https://adsiwall-add.netlify.app" className="btn btn-success">Add</a>
             </nav>
         </>
     )
