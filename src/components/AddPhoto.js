@@ -27,7 +27,7 @@ function AddPhoto() {
                     <label>Phone No: <input type="text" name="phone-no" className="form-control" placeholder="Enter country code eg: +91 1234567890" required /></label>
                 </div>
                 <div className="form-group">
-                    <label>Photo of Ad: <input type="file" name="photo" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required /></label>
+                    <label>Photo of Ad: <input type="file" id="file" name="photo" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required /></label>
                 </div>
                 <div id="preview">PREVIEW</div>
                 <div data-netlify-recaptcha="true" className="recaptcha" ></div>
