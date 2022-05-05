@@ -144,6 +144,15 @@ nav a:hover {
     margin-left: 25px;
     margin-right: 2px;
 }
+.admin-area{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid grey;
+    padding: 10px;
+    padding-top: 0;
+}
 
 @media(max-width:600px) {
     nav {
