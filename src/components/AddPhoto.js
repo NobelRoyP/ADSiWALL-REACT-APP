@@ -15,7 +15,7 @@ function AddPhoto() {
     return (
         <div className="admin-area">
             <h2>Add Form</h2>
-            <form name="add-photo" method="post" data-netlify="true" onSubmit="submit">
+            <form name="add-photo" data-netlify="true" onSubmit="submit">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
                     <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
