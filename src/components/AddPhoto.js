@@ -13,7 +13,7 @@ function AddPhoto() {
         imagediv.appendChild(newimg);
     }
     return (
-        <div className="admin-area">
+        <div className="admin-area" hidden>
             <h2>Add Form</h2>
             <form name="add-photo" method="post" data-netlify="true" onSubmit="submit">
             <input type="hidden" name="form-name" value="add-photo" />
