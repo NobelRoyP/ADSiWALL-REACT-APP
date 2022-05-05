@@ -40,7 +40,10 @@
       <label>Phone No: <input type="text" name="Phone No" class="form-control"
           placeholder="Enter country code eg: +91 1234567890" required /></label>
     </div>
-    <div data-netlify-recaptcha="true" className="recaptcha"></div>
+    <div className="form-group">
+      <label>Photo of Ad: <input type="file" name="photo" className="form-control" style="height:50px;" onchange={getImagePreview(event)} required /></label>
+    </div>
+    <div data-netlify-recaptcha="true" class="recaptcha"></div>
   </form>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
