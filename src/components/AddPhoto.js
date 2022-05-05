@@ -17,6 +17,7 @@ const Add_Photo = () => {
         <div className="admin-area">
             <h2>Add Form</h2>
             <form name="add-photo" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+            <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
                     <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
                 </div>
