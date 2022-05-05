@@ -1,9 +1,8 @@
 import React from 'react'
 import '../AddPhoto.css'
 import 'bootstrap'
-import { Link } from 'react-router-dom'
 
-const AddPhoto = () => {
+function AddPhoto() {
     function getImagePreview(event) {
         var image = URL.createObjectURL(event.target.files[0]);
         var imagediv = document.getElementById('preview');
