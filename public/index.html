@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <form name="add-photo" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/" hidden>
+  <form name="add-photo" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/">
     <div class="form-group">
       <label>Name: <input type="text" name="name" class="form-control" placeholder="Enter Name" required /></label>
     </div>
@@ -44,6 +44,7 @@
       <label>Photo of Ad: <input type="file" name="photo" className="form-control" style="height:50px;" onchange={getImagePreview(event)} required /></label>
     </div>
     <div data-netlify-recaptcha="true" class="recaptcha"></div>
+    <button type="submit">send</button>
   </form>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
