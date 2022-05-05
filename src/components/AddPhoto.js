@@ -25,7 +25,7 @@ const AddPhoto = () => {
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required /></label>
                 </div>
                 <div className="form-group">
-                    <label>Phone No: <input type="text" name="Phone No" className="form-control" placeholder="Enter country code eg: +91 1234567890" required /></label>
+                    <label>Phone No: <input type="text" name="phone" className="form-control" placeholder="Enter country code eg: +91 1234567890" required /></label>
                 </div>
                 <div className="form-group">
                     <label>Photo of Ad: <input type="file" name="photo" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required /></label>
