@@ -3,7 +3,7 @@ import '../AddPhoto.css'
 import 'bootstrap'
 import { Link } from 'react-router-dom'
 
-const Add_Photo = () => {
+const AddPhoto = () => {
     function getImagePreview(event) {
         var image = URL.createObjectURL(event.target.files[0]);
         var imagediv = document.getElementById('preview');
@@ -16,7 +16,7 @@ const Add_Photo = () => {
     return (
         <div className="admin-area">
             <h2>Add Form</h2>
-            <form name="add-photo" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+            <form name="add-photo" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
                     <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
@@ -37,4 +37,4 @@ const Add_Photo = () => {
         </div>
     )
 }
-export default Add_Photo
+export default AddPhoto
