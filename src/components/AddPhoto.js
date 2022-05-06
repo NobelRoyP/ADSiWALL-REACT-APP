@@ -32,7 +32,7 @@ const AddPhoto = () => {
                 </div>
                 <div id="preview">PREVIEW</div>
                 <button type="submit" className="btn btn-success" >send</button>
-                <input type="hidden" name="_next" value="https://adsiwall.netlify.app/">
+                <input type="hidden" name="_next" value="https://adsiwall.netlify.app/thanks">
             </form>
         </div>
     )
