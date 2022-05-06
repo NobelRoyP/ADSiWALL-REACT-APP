@@ -102,8 +102,8 @@ nav a:hover {
 .Thanks-area h2{
     text-align: center;
 }
-.btn {
-    margin-left: 7.5rem;
+.Thanks-area .btn{
+     margin-left: 100px;
 }
 
 .About-area a {
