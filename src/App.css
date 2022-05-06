@@ -194,6 +194,15 @@ nav a:hover {
         object-fit: cover;
         margin: 10px;
     }
+    .admin-area{
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        border: 0;
+        padding: 10px;
+        padding-top: 0;
+}
 
     .menu {
         -webkit-appearance: none;
