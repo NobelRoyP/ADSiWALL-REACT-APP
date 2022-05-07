@@ -13,7 +13,7 @@ const AddPhoto = () => {
         newimg.width = "300";
         imagediv.appendChild(newimg);
     }
-    function loadingBtn {
+    function loadingBtn() {
     document.getElementById("btn").style.background="grey";
     }
     return (
