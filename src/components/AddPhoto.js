@@ -14,7 +14,10 @@ const AddPhoto = () => {
         imagediv.appendChild(newimg);
     }
     function loadingBtn() {
-    document.getElementById("btn").style.background="grey";
+    var Btn = document.getElementById("btn");
+    Btn.style.background="grey";
+    Btn.style.borderColor="#303030";
+    Btn.style.pointerEvents="none";
     }
     return (
         <div className="admin-area">
