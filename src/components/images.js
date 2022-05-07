@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 const Images = [
     {
-        src: "https://media.gettyimages.com/photos/lion-portrait-picture-id485867821?b=1&k=20&m=485867821&s=170667a&w=0&h=M7OZZEf0YU0QauiVgfJAL9X0bN3KFbqQ0wgzZPLf6UY=",
+        src: "%PUBLIC_URL%/favicon.png",
         title: "Poster",
         id: uuidv4(),
         link: "", 
