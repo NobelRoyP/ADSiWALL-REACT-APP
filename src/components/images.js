@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 const Images = [
     {
-        src: "./favicon.png",
+        src: "./image2.png",
         title: "Poster",
         id: uuidv4(),
         link: "", 
