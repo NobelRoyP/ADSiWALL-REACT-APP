@@ -17,6 +17,7 @@ const AddPhoto = () => {
     var Btn = document.getElementById("btn");
     Btn.style.background="grey";
     Btn.style.borderColor="#303030";
+    Btn.style.color="#d4d4d4";
     Btn.style.pointerEvents="none";
     }
     return (
