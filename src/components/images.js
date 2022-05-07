@@ -7,7 +7,7 @@ const Images = [
         link: "", 
     },
     {
-        src: "./favicon.png",
+        src: "./Image/favicon.png",
         title: "Poster",
         id: uuidv4(),
         link: "", 
