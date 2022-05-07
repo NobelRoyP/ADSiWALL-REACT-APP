@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 const Images = [
     {
-        src: "%PUBLIC_URL%/favicon.png",
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTi51T-kaVxsX-nGwjof7RcCdoqs_GOYj8-w&usqp=CAU",
         title: "Poster",
         id: uuidv4(),
         link: "", 
