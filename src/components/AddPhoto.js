@@ -13,6 +13,9 @@ const AddPhoto = () => {
         newimg.width = "300";
         imagediv.appendChild(newimg);
     }
+    function loadingBtn {
+    document.getElementById("btn").style.background="grey";
+    }
     return (
         <div className="admin-area">
             <h2>Add Form</h2>
@@ -31,7 +34,7 @@ const AddPhoto = () => {
                     <label>Photo of Ad: <input type="file" name="attachment" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required accept="image/png, image/jpeg"/></label>
                 </div>
                 <div id="preview">PREVIEW</div>
-                <button type="submit" className="btn btn-success" >send</button>
+                <button type="submit" className="btn btn-success" id="btn" onClick={loadingBtn}>send</button>
                 <input type="hidden" name="_next" value="https://adsiwall.netlify.app/thanks" />
                 <input type="hidden" name="_captcha" value="false"/>
             </form>
