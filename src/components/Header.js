@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './favicon.png';
+import logo from '../public/Images/favicon.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
 
