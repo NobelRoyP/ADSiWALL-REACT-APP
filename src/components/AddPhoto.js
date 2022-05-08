@@ -19,6 +19,7 @@ const AddPhoto = () => {
     Btn.style.borderColor="#303030";
     Btn.style.color="#bbbdbb";
     Btn.style.pointerEvents="none";
+    Btn.innerHTML="loading📤"
     }
     return (
         <div className="admin-area">
