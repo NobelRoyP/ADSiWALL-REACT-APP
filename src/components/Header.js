@@ -46,7 +46,7 @@ const Header = () => {
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-                <Link to="/" className="h2">ADSiWALL</Link>
+                <h1><Link to="/" className="h2">ADSiWALL</Link></h1>
                 <Link to="/about" className="h4 nav-items">About</Link>
                 <Link to="/contact" className="h4 nav-items">Contact</Link>
                 <Link to="/add-photo" className="btn btn-success">Add</Link>
