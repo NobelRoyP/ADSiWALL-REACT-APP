@@ -65,25 +65,6 @@ form{
     top:-10px;
     right:10px;
 }
-.loader-wrapper{
-	height:100vh;
-	width:100%;
-	background:#262626;
-	position:absolute;
-	top:0;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-.loader{
-	height:50px;
-	width:50px;
-	border:3px solid transparent;
-	border-bottom:3px solid #5bf5ed;
-	border-left:3px solid #5bf5ed;
-	border-radius:50%;
-	animation:spin 1s linear infinite;
-}
-@keyframes spin{
-    100%{transform:rotateZ(360deg);}
+.btn:hover{
+	border: 3px solid grey;
 }
