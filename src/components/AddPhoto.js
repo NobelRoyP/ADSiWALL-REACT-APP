@@ -39,6 +39,9 @@ const AddPhoto = () => {
                     <label>Photo of Ad: <input type="file" name="attachment" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required accept="image/png, image/jpeg"/></label>
                 </div>
                 <div id="preview">PREVIEW</div>
+                <div className="form-group">
+                    <label>URL: <input type="text" name="link" className="form-control" placeholder="link to your website,Instagram,Facebook,etc..." required /></label>
+                </div>
                 <button type="submit" className="btn btn-success" id="btn" onClick={loadingBtn}>send</button>
                 <input type="hidden" name="_next" value="https://adsiwall.netlify.app/thanks" />
                 <input type="hidden" name="_captcha" value="false"/>
