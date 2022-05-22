@@ -12,7 +12,7 @@ export class Home extends Component {
         var ImageLink = document.getElementById("loadingDiv");
      
         ImageLink.style.opacity="0";
-        }, 300);
+        }, 10);
         return (
             <div>
                 <div className="poster-area">
