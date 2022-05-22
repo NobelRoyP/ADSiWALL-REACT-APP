@@ -13,7 +13,7 @@ export class Home extends Component {
         
         ImageLink.style.opacity="0";
         }
-        setTimeout("hideDiv()", 2000);
+        setTimeout("hideDiv", 2000);
         return (
             <div>
                 <div className="poster-area">
