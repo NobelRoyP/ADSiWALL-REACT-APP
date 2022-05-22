@@ -164,6 +164,12 @@ nav a:hover {
     padding: 10px;
     padding-top: 0;
 }
+loadingDiv {
+    background: grey;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
 
 @media(max-width:600px) {
     nav {
