@@ -2,16 +2,13 @@ import React, { Component } from 'react'
 import Images from './images'
 
 export class Home extends Component {
-
-const showDiv = () => {
-     ImageLink = document.getElementById("loadingDiv");
-     
-     ImageLink.style.opacity="1";
-}
-
-
-    render() {
+     render() {
         return (
+        const showDiv = () => {
+        ImageLink = document.getElementById("loadingDiv");
+     
+        ImageLink.style.opacity="1";
+        }
             <div>
                 <div className="poster-area">
                 <div className="poster">
