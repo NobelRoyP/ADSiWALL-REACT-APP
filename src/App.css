@@ -168,10 +168,14 @@ nav a:hover {
     background: grey;
     height: 50px;
     width: 100px;
+    opacity: 0;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: translate(-50%,-50%);
 }
 
