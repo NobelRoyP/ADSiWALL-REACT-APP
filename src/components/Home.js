@@ -8,12 +8,12 @@ export class Home extends Component {
      
         ImageLink.style.opacity="1";
         }
-        function hideDiv(){
+        const hideDiv = () => {
         var ImageLink = document.getElementById("loadingDiv");
         
         ImageLink.style.opacity="0";
         }
-        setTimeout("hideDiv()", 2000);
+        hideDiv.setTimeout(2000);
         return (
             <div>
                 <div className="poster-area">
