@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Images from './images'
-import $ from 'jquery'
 
 export class Home extends Component {
      render() {
@@ -10,10 +9,10 @@ export class Home extends Component {
         ImageLink.style.opacity="1";
         }
         setTimeout(() => {
-        $(window).on("load", function(){
-          $(".loader").fadeOut(2000);
-        })
-        }, 3000);
+        var ImageLink = document.getElementById("loadingDiv");
+     
+        ImageLink.style.opacity="0";
+        }, 1000);
         return (
             <div>
                 <div className="poster-area">
