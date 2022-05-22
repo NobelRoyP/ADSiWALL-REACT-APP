@@ -9,9 +9,9 @@ export class Home extends Component {
         ImageLink.style.opacity="1";
         }
         setTimeout(() => {
-        var ImageLink = document.getElementById("loadingDiv");
-        
-        ImageLink.style.opacity="0";
+        $(window).on("load", function(){
+          $(".loader").fadeOut(2000);
+        })
         }, 3000);
         return (
             <div>
@@ -22,7 +22,7 @@ export class Home extends Component {
                             <a href={Image.link} onClick={showDiv}><img src={Image.src} alt={Image.title} key={Image.id}/></a>
                         ))
                     }
-                    <div id="loadingDiv">Loading...</div>
+                    <div id="loadingDiv" className="loader">Loading...</div>
                 </div>
             </div>
             </div>
