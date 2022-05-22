@@ -3,12 +3,12 @@ import Images from './images'
 
 export class Home extends Component {
      render() {
-        return (
         const showDiv = () => {
         ImageLink = document.getElementById("loadingDiv");
      
         ImageLink.style.opacity="1";
         }
+        return (
             <div>
                 <div className="poster-area">
                 <div className="poster">
