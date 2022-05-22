@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Images from './images'
+import from 'https://code.jquery.com/jquery-3.6.0.min.js'
 
 export class Home extends Component {
      render() {
