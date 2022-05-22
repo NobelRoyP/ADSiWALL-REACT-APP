@@ -4,7 +4,7 @@ import Images from './images'
 export class Home extends Component {
      render() {
         const showDiv = () => {
-        ImageLink = document.getElementById("loadingDiv");
+        var ImageLink = document.getElementById("loadingDiv");
      
         ImageLink.style.opacity="1";
         }
