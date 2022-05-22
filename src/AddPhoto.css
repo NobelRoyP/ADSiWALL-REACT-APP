@@ -30,7 +30,8 @@ form{
 	background:#262626;
 	outline:0;
 	color:white;
-    margin-bottom: 25px;
+        margin-bottom: 25px;
+        width: 100%;
 }
 .form-control:focus {
 	background:#262626;
