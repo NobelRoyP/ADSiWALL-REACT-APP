@@ -8,7 +8,7 @@ export class Home extends Component {
      
         ImageLink.style.opacity="1";
         }
-        const hideDiv(){
+        const hideDiv = () => {
         var ImageLink = document.getElementById("loadingDiv");
         
         ImageLink.style.opacity="0";
