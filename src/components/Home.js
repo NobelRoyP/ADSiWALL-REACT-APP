@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Images from './images'
+import Videos from './Videos'
 
 export class Home extends Component {
      render() {
@@ -12,6 +13,13 @@ export class Home extends Component {
                             <a href={Image.link}><img src={Image.src} alt={Image.title} key={Image.id}/></a>
                         ))
                     }
+                </div>
+                <div className="poster">
+                  {
+                        Videos.map((Video)=>(
+                            <a href={Image.link}><img src={Image.src} alt={Image.title} key={Image.id}/></a>
+                        ))
+                  }
                 </div>
             </div>
             </div>
