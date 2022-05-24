@@ -14,9 +14,6 @@ export class Home extends Component {
                         ))
                     }
                 </div>
-<div id="iframe">
-<iframe src="https://youtube.com/embed/Y8RGHSKjFaI" enctyped-media allowfullscreen></iframe>
-</div>
                 
             </div>
             </div>
