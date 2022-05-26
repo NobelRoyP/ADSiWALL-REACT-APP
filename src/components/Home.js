@@ -11,7 +11,7 @@ export class Home extends Component {
                     {
                         Images.map((Image)=>(
 <>
-                            <a href={Image.link}><iframe src={Image.vidsrc} alt={Image.title} key={Image.id} enctyped-media allowfullscreen ></iframe></a>
+                            <a href={Image.link}><video src={Image.vidsrc} alt={Image.title} key={Image.id}></video></a>
                             <a href={Image.link}><img src={Image.imgsrc} alt={Image.title} key={Image.id}/></a>
 </>
                         ))
