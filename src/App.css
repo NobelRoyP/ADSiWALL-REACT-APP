@@ -149,7 +149,7 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.poster img {
+.poster img, iframe{
     width: 160px;
     height: 250px;
     object-fit: cover;
