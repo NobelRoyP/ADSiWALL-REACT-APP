@@ -10,7 +10,7 @@ export class Home extends Component {
                 <div className="poster">
                     {
                         Images.map((Image)=>(
-                            <a href={Image.link}><img src={Image.src} alt={Image.title} key={Image.id}/></a>
+                            <a href={Image.link}><iframe src={Image.src} alt={Image.title} key={Image.id} enctyped-media allowfullscreen ></iframe></a>
                         ))
                     }
                 </div>
