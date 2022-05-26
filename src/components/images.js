@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 const Images = [
     {
-        vidsrc: "https://youtube.com/embed/Y8RGHSKjFaI",
+        vidsrc: "https://d3cvwyf9ksu0h5.cloudfront.net/answer-1562685941_17241555.mp4",
         imgsrc: "./Images/favicon.png",
         title: "Poster",
         id: uuidv4(),
