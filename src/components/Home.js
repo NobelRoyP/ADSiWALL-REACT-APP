@@ -10,10 +10,10 @@ export class Home extends Component {
                 <div className="poster">
                     {
                         Images.map((Image)=>(
-<>
+                         <div className="imgvid">
                             <a href={Image.link}><video src={Image.vidsrc} alt={Image.title} key={Image.id}></video></a>
                             <a href={Image.link}><img src={Image.imgsrc} alt={Image.title} key={Image.id}/></a>
-</>
+                         </div>
                         ))
                     }
                 </div>
