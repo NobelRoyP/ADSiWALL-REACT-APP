@@ -157,6 +157,9 @@ nav a:hover {
     margin-left: 25px;
     margin-right: 2px;
 }
+.poster.imgvid{
+    display:flex;
+}
 .admin-area{
     position: absolute;
     top: 60px;
