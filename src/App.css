@@ -149,7 +149,7 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.poster img, video{
+.poster img{
     width: 160px;
     height: 250px;
     object-fit: cover;
@@ -157,8 +157,18 @@ nav a:hover {
     margin-left: 25px;
     margin-right: 2px;
 }
-.poster.imgvid{
+.link{
+    position:relative;
+    top:-50px;
+    left:0;
+    padding:10px;
+    height:30px;
+    width:87.5%;
+    backdrop-filter:blur(0px);
+    background:rgba(0, 0, 0, 0.29);
     display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .admin-area{
     position: absolute;
