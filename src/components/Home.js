@@ -11,7 +11,7 @@ export class Home extends Component {
                         Images.map((Image)=>(
                          <div className="imgvid">
                             <a href={Image.link}><img src={Image.imgsrc} alt={Image.title} key={Image.id}/></a>
-                            <a href={Image.link}><div className="link">{{Image.link}}</div></a>
+                            <a href={Image.link}><div className="link">{Image.link}</div></a>
                          </div>
                         ))
                     }
