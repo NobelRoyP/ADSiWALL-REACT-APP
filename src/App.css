@@ -298,4 +298,7 @@ nav a:hover {
         align-items: center;
         letter-spacing: 2px;
     }
+    .link{
+        left: 10px;
+    }
 }
