@@ -4,7 +4,7 @@ const Images = [
         imgsrc: "./Images/iamnoelwebpic.jpeg",
         title: "Poster",
         id: uuidv4(),
-        link: "https://www.instagram.com/p/CeBeb36BLV7/?igshid=MDJmNzVkMjY=", 
+        link: "https://www.instagram.com/p/CeBeb36BLV7/", 
     },
     {
         imgsrc: "./Images/favicon.png",
