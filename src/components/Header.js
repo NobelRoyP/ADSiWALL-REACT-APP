@@ -47,9 +47,10 @@ const Header = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <h1><Link to="/" className="h2">ADSiWALL</Link></h1>
-                <Link to="https://allaboutadsiwall.netlify.app/" className="h4 nav-items">About</Link>
+                <Link to="/about" className="h4 nav-items">About</Link>
                 <Link to="/contact" className="h4 nav-items">Contact</Link>
                 <Link to="/add-photo" className="btn btn-success">Add</Link>
+                <a href="https://allaboutadsiwall.netlify.app/" className="h4 nav-items">Help ?</a>
 
                 <input type="checkbox" className="menu" onClick={onClick} />
                 <input type="checkbox" className="menu-sec" onClick={onSecClick} />
