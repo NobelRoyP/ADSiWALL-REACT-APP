@@ -59,7 +59,7 @@ const Header = () => {
                     <Link to="/" onClick={onLinkClick}><i className="fa fa-home">Home</i></Link>
                     <Link to="/about" onClick={onLinkClick}><i className="fa fa-circle-info">About</i></Link>
                     <Link to="/contact" onClick={onLinkClick}><i className="fa fa-user">Contact</i></Link>
-                    <a href="https://allaboutadsiwall.netlify.app/" className="h4 nav-items">Help ?</a>
+                    <a href="https://allaboutadsiwall.netlify.app/" onClick={onLinkClick} className="fa">? Help</a>
                 </div>
             </nav>
         </>
