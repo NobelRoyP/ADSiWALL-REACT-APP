@@ -21,7 +21,7 @@ nav {
     left: 0;
 }
 
-nav a {
+nav a, Link{
     text-decoration: none;
     color: white;
     margin-right: 20px;
@@ -30,7 +30,7 @@ nav .btn{
     margin-bottom: 10px;
 }
 
-nav a:hover {
+nav a:hover, Link:hover{
     color: white;
 }
 
