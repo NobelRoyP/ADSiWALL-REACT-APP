@@ -285,7 +285,7 @@ nav a:hover {
         align-items: center;
         flex-direction: column;
     }
-    .menu-content a{
+    .menu-content a, Link{
         color: white;
         font-size: 18px;
         text-decoration: none;
