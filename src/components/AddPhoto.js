@@ -15,11 +15,15 @@ const AddPhoto = () => {
     }
     function loadingBtn() {
     var Btn = document.getElementById("btn");
-    Btn.style.background="grey";
-    Btn.style.borderColor="#303030";
-    Btn.style.color="#bbbdbb";
-    Btn.style.pointerEvents="none";
-    Btn.innerHTML="loading📤"
+    var Input = document.querySelector('.form-control');
+    
+    if(Input==""){
+        Btn.style.background="grey";
+        Btn.style.borderColor="#303030";
+        Btn.style.color="#bbbdbb";
+        Btn.style.pointerEvents="none";
+        Btn.innerHTML="loading📤"
+    }
     }
     return (
         <div className="admin-area">
