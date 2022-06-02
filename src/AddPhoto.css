@@ -3,6 +3,7 @@ body{
     background:#444141;
     padding-bottom:20px;
     font-family:sans-serif;
+    height: 120vh;
 }
 .navbar {
 	height:50px;
