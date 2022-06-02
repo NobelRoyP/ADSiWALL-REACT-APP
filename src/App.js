@@ -21,6 +21,9 @@ function App() {
         </Routes>
         <Header/>
       </Router>
+     <div className="copy-right-div">
+        <p><i className="fa-regular fa-copyright"></i> 2022 Adsiwall. All Rights Reserved</p>
+    </div>
     </div>
   );
 }
