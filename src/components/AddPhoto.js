@@ -22,8 +22,15 @@ const AddPhoto = () => {
         Btn.style.borderColor="#303030";
         Btn.style.color="#bbbdbb";
         Btn.style.pointerEvents="none";
-        Btn.innerHTML="loading📤"
+        Btn.innerHTML="complete the form"
     }
+        else{
+            Btn.style.background="green";
+            Btn.style.borderColor="green";
+            Btn.style.color="white";
+            Btn.style.pointerEvents="auto";
+            Btn.innerHTML="Send"
+        }
     }
     return (
         <div className="admin-area">
