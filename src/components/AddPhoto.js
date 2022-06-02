@@ -17,7 +17,7 @@ const AddPhoto = () => {
     var Btn = document.getElementById("btn");
     var Input = document.querySelector('.form-control');
     
-    if(Input==""){
+    if(Input=""){
         Btn.style.background="grey";
         Btn.style.borderColor="#303030";
         Btn.style.color="#bbbdbb";
