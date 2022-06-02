@@ -49,17 +49,17 @@ const Header = () => {
                 <h1><Link to="/" className="h2">ADSiWALL</Link></h1>
                 <Link to="/about" className="h4 nav-items">About</Link>
                 <Link to="/contact" className="h4 nav-items">Contact</Link>
-                <a href="https://allaboutadsiwall.netlify.app/" className="h4 nav-items">Help ?</a>
+                <a href="https://allaboutadsiwall.netlify.app/" className="h4 nav-items">Help</a>
                 <Link to="/add-photo" className="btn btn-success">Add</Link>
 
                 <input type="checkbox" className="menu" onClick={onClick} />
                 <input type="checkbox" className="menu-sec" onClick={onSecClick} />
 
                 <div className="menu-content">
-                    <Link to="/" onClick={onLinkClick}><i className="fa fa-home">Home</i></Link>
-                    <Link to="/about" onClick={onLinkClick}><i className="fa fa-circle-info">About</i></Link>
-                    <Link to="/contact" onClick={onLinkClick}><i className="fa fa-user">Contact</i></Link>
-                    <a href="https://allaboutadsiwall.netlify.app/" onClick={onLinkClick} className="fa">? Help</a>
+                    <Link to="/" onClick={onLinkClick}><i className="fa-solid fa-home">Home</i></Link>
+                    <Link to="/about" onClick={onLinkClick}><i className="fa-solid fa-circle-info">About</i></Link>
+                    <Link to="/contact" onClick={onLinkClick}><i className="fa-solid fa-user">Contact</i></Link>
+                    <a href="https://allaboutadsiwall.netlify.app/" onClick={onLinkClick}><i className="fa-solid fa-circle-question">Help</i></a>
                 </div>
             </nav>
         </>
