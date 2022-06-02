@@ -17,7 +17,7 @@ const AddPhoto = () => {
     var Btn = document.getElementById("btn");
     var Input = document.querySelector('.form-control');
     
-    if(Input=""){
+    if(Input.value===""){
         Btn.style.background="grey";
         Btn.style.borderColor="#303030";
         Btn.style.color="#bbbdbb";
@@ -28,8 +28,8 @@ const AddPhoto = () => {
             Btn.style.background="green";
             Btn.style.borderColor="green";
             Btn.style.color="white";
-            Btn.style.pointerEvents="auto";
-            Btn.innerHTML="Send"
+            Btn.style.pointerEvents="none";
+            Btn.innerHTML="Loading..."
         }
     }
     return (
