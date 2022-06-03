@@ -17,7 +17,7 @@ const AddPhoto = () => {
         var Input = document.querySelector(".form-control");
         var ValidationSpan = document.querySelector("#validationSpan");
         if(Input.value===""){
-           ValidationSpan.innerHTML="*Fill this field";
+           ValidationSpan.innerHTML="*Fill all fields";
            ValidationSpan.style.color="red";
         }
     }
