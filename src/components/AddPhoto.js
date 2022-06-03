@@ -31,7 +31,7 @@ const AddPhoto = () => {
                     <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
                 </div>
                 <div className="form-group">
-                    <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required /></label>
+                    <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required autocomplete="off"/></label>
                 </div>
                 <div className="form-group">
                     <label>Phone No: <input type="text" name="phone" className="form-control" placeholder="enter code first:- +91" required /></label>
