@@ -18,9 +18,9 @@ const AddPhoto = () => {
     var Input = document.querySelector('.form-control');
     
     if(Input.value===""){
-        Btn.style.background="grey";
-        Btn.style.borderColor="#303030";
-        Btn.style.color="#bbbdbb";
+        Btn.style.background="yellow";
+        Btn.style.borderColor="yellow";
+        Btn.style.color="red";
         Btn.style.pointerEvents="none";
         Btn.innerHTML="complete the form"
     }
@@ -32,13 +32,23 @@ const AddPhoto = () => {
             Btn.innerHTML="Loading..."
         }
     }
+    function onFocusInput(){
+    var Btn = document.getElementById("btn");
+    var Input = document.querySelector('.form-control');
+
+        Btn.style.background="green";
+        Btn.style.borderColor="green";
+        Btn.style.color="white";
+        Btn.style.pointerEvents="auto";
+        Btn.innerHTML="send"
+    }
     return (
         <div className="admin-area">
             <h2>Add Form</h2>
             <form name="add-photo" method="POST" action="https://formsubmit.co/adsiwallweb@yahoo.com" enctype="multipart/form-data">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
-                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
+                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required onFocus={onFocusInput}/></label>
                 </div>
                 <div className="form-group">
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required /></label>
