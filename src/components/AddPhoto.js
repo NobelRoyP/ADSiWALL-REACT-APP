@@ -23,12 +23,12 @@ const AddPhoto = () => {
     }
     return (
         <div className="admin-area">
-            <h2>Add Form</h2>
+            <h2>Add Form</h2><br/>
+            <span id="validationSpan"></span>
             <form name="add-photo" method="POST" action="https://formsubmit.co/adsiwallweb@yahoo.com" enctype="multipart/form-data">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
-                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label><br/>
-                    <span id="validationSpan"></span>
+                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label>
                 </div>
                 <div className="form-group">
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required /></label>
