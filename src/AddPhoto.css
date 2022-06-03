@@ -20,6 +20,11 @@ body{
     text-align: center;
     margin-top: 20px;
 }
+#validationSpan{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
 form{
 	margin-top:60px;
 	margin-bottom: 40px;
