@@ -65,10 +65,10 @@ const Images = [
     },*/
     {
         name: "Name", 
-        imgsrc: "./Images/",
+        imgsrc: "./Images/iamnoelwebpic.jpeg",
         title: "Poster",
         id: uuidv4(),
-        link: "www.youtube.com", 
+        link: "https://www.youtube.com", 
     },
     {
         name: "i am Noel", 
