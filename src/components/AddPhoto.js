@@ -13,34 +13,13 @@ const AddPhoto = () => {
         newimg.width = "300";
         imagediv.appendChild(newimg);
     }
-    function loadingBtn() {
-    var Btn = document.getElementById("btn");
-    var Input = document.querySelector('.form-control');
-    
-    if(Input.value===""){
-        Btn.style.background="yellow";
-        Btn.style.borderColor="yellow";
-        Btn.style.color="red";
-        Btn.style.pointerEvents="none";
-        Btn.innerHTML="complete the form"
-    }
-        else{
-            Btn.style.background="green";
-            Btn.style.borderColor="green";
-            Btn.style.color="white";
-            Btn.style.pointerEvents="none";
-            Btn.innerHTML="Loading..."
+    function validationBtn(){
+        var Input = document.querySelector(".form-control");
+        var ValidationSpan = document.querySelector("#validationSpan");
+        if(Input.value===""){
+           ValidationSpan.innerHTML="*Fill this field";
+           ValidationSpan.style.color="red";
         }
-    }
-    function onFocusInput(){
-    var Btn = document.getElementById("btn");
-    var Input = document.querySelector('.form-control');
-
-        Btn.style.background="green";
-        Btn.style.borderColor="green";
-        Btn.style.color="white";
-        Btn.style.pointerEvents="auto";
-        Btn.innerHTML="send"
     }
     return (
         <div className="admin-area">
@@ -48,7 +27,8 @@ const AddPhoto = () => {
             <form name="add-photo" method="POST" action="https://formsubmit.co/adsiwallweb@yahoo.com" enctype="multipart/form-data">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
-                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required onFocus={onFocusInput}/></label>
+                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required /></label><br/>
+                    <span id="validationSpan"></span>
                 </div>
                 <div className="form-group">
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required /></label>
@@ -63,7 +43,7 @@ const AddPhoto = () => {
                 <div className="form-group">
                     <label>URL: <input type="text" name="link" className="form-control" placeholder="link to your website,Instagram,Facebook,etc..." required /></label>
                 </div>
-                <button type="submit" className="btn btn-success" id="btn" onClick={loadingBtn}>send</button>
+                <button type="submit" className="btn btn-success" id="btn" onClick={validationBtn}>Send</button>
                 <input type="hidden" name="_next" value="https://adsiwall.netlify.app/thanks" />
                 <input type="hidden" name="_captcha" value="false"/>
             </form>
