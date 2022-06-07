@@ -1,84 +1,84 @@
 import { v4 as uuidv4 } from 'uuid'
 const Images = [
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
-        name: "", 
+        brand_name: "", 
         imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     {
-        name: "i am Noel", 
+        brand_name: "i am Noel", 
         imgsrc: "./Images/iamnoelwebpic.jpeg",
         title: "Poster",
         id: uuidv4(),
         link: "https://www.instagram.com/p/CeBeb36BLV7/", 
     },
     {
-        name: "Adsiwall", 
+        brand_name: "Nobsownshop", 
         imgsrc: "./Images/favicon.png",
         title: "Poster",
         id: uuidv4(),
