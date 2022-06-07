@@ -9,7 +9,7 @@ export class Home extends Component {
                 <div className="poster">
                     {
                         Images.map((Image)=>(
-                         <div className="ad-post">
+                         <div className="post">
                             <a href={Image.link}><img src={Image.imgsrc} alt={Image.title} key={Image.id}/></a>
                             <a href={Image.link}><div className="link">{Image.brand_name} <i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
                          </div>
