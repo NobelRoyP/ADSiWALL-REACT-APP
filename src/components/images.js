@@ -79,7 +79,7 @@ const Images = [
     },
     {
         brand_name: "Nobsownshop", 
-        imgsrc: "./Images/favicon.png",
+        imgsrc: "./Images/appicon.png",
         title: "Poster",
         id: uuidv4(),
         link: "https://nobsownshop.netlify.app", 
