@@ -47,7 +47,7 @@ const AddPhoto = () => {
                     <label>URL: <input type="text" name="link" className="form-control" placeholder="link to your website,Instagram,Facebook,etc..." required autocomplete="off"/></label>
                 </div>
                 <button type="submit" className="btn btn-success" id="btn" onClick={validationBtn}>Send</button>
-                <input type="hidden" name="_next" value="https://adsiwall.netlify.app/thanks" />
+                <input type="hidden" name="_next" value="https://adsiwallofficial.netlify.app/thanks" />
                 <input type="hidden" name="_captcha" value="false"/>
             </form>
         </div>
