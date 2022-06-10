@@ -28,7 +28,10 @@ const AddPhoto = () => {
             <form name="add-photo" method="POST" action="https://formsubmit.co/adsiwallweb@yahoo.com" enctype="multipart/form-data">
             <input type="hidden" name="form-name" value="add-photo" />
                 <div className="form-group">
-                    <label>Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
+                    <label>Your Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
+                </div>
+                <div className="form-group">
+                    <label>Name of your website: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
                 </div>
                 <div className="form-group">
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required autocomplete="off"/></label>
