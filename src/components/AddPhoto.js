@@ -31,7 +31,17 @@ const AddPhoto = () => {
                     <label>Your Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
                 </div>
                 <div className="form-group">
-                    <label>Name of your website: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
+                    <label>Name of your website: 
+                           <select name="name" className="form-control" required>      
+		                <option>Shopping Site</option>
+		                <option>Instagram</option>
+		                <option>Facebook</option>
+		                <option>Twitter</option>
+		                <option>YouTube</option>
+		                <option>Blog</option>
+		                <option>Website</option>
+                           </select>
+                    </label>
                 </div>
                 <div className="form-group">
                     <label>Email: <input type="email" name="email" className="form-control" placeholder="Enter Email" required autocomplete="off"/></label>
