@@ -31,7 +31,7 @@ const AddPhoto = () => {
                     <label>Your Name: <input type="text" name="name" className="form-control" placeholder="Enter Name" required autocomplete="off"/></label>
                 </div>
                 <div className="form-group">
-                    <label>Name of your website: 
+                    <label>Category: 
                            <select name="name" className="form-control" required>      
 		                <option>Shopping Site</option>
 		                <option>Instagram</option>
