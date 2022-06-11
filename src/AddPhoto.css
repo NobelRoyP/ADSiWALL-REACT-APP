@@ -19,14 +19,14 @@ form{
 .form-group, .btn{
 	margin-left:10px;
 }
-.form-control {
+.form-control, .form-select{
 	background:#262626;
 	outline:0;
 	color: #34d2eb;
         margin-bottom: 25px;
         width: 330px;
 }
-.form-control:focus {
+.form-control:focus, .form-select:focus{
 	background:#262626;
 	outline:0;
 	color: #34d2eb;
