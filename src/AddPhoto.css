@@ -4,18 +4,6 @@ body{
     padding-bottom:20px;
     font-family:sans-serif;
 }
-.navbar {
-	height:50px;
-	width:100%;
-	background:#262626;
-	position:fixed;
-	top:0;
-	display:flex;
-	align-items:center;
-}
-.navbar h3{
-    font-size:25px;
-}
 .admin-area h2{
     text-align: center;
     margin-top: 20px;
@@ -34,14 +22,14 @@ form{
 .form-control {
 	background:#262626;
 	outline:0;
-	color:white;
+	color: #34d2eb;
         margin-bottom: 25px;
         width: 330px;
 }
 .form-control:focus {
 	background:#262626;
 	outline:0;
-	color:white;
+	color: #34d2eb;
 }
 #preview {
 	height:170px;
