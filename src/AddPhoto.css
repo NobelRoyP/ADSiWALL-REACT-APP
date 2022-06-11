@@ -32,8 +32,10 @@ form{
 	color: #34d2eb;
 }
 .form-select {
-        width: 280px;
+        width: 330px;
         margin-bottom: 25px;
+        color: #34d2eb;
+        background-color: #262626;
 }
 #preview {
 	height:170px;
