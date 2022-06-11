@@ -9,9 +9,7 @@ body{
     margin-top: 20px;
 }
 #validationSpan{
-    position: relative;
     display: block;
-    left: 37%;
     background: yellow;
 }
 form{
