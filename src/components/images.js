@@ -63,13 +63,13 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    /*{
-        brand_name: "", 
-        imgsrc: "./Images/",
+    {
+        brand_name: "YouTube", 
+        imgsrc: "./Images/image4.jpg",
         title: "Poster",
         id: uuidv4(),
-        link: "", 
-    },*/
+        link: "https://youtube.com/c/AnnsPaperTech", 
+    },
     {
         brand_name: "i am Noel", 
         imgsrc: "./Images/iamnoelwebpic.jpeg",
