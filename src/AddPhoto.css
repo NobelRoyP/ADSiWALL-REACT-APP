@@ -10,6 +10,7 @@ body{
 }
 #validationSpan{
     position: relative;
+    display: none;
     left: 37%;
 }
 form{
