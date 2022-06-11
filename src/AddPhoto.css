@@ -12,6 +12,7 @@ body{
     position: relative;
     display: block;
     left: 37%;
+    background: yellow;
 }
 form{
 	margin-top:60px;
