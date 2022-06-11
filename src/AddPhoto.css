@@ -10,7 +10,8 @@ body{
 }
 #validationSpan{
     display: block;
-    background: yellow;
+    background: transparent;
+    text-align: center;
 }
 form{
 	margin-top:60px;
