@@ -32,7 +32,7 @@ const AddPhoto = () => {
                 </div>
                 <div className="form-group">
                     <label>Category: 
-                           <select name="name" className="form-control" required>      
+                           <select name="name" className="form-select">      
 		                <option>Shopping Site</option>
 		                <option>Instagram</option>
 		                <option>Facebook</option>
