@@ -86,7 +86,7 @@ const Images = [
     },
     {
         brand_name: "i am Noel", 
-        imgsrc: "./Images/iamnoelwebpic.jpeg",
+        imgsrc: "./Images/Iamnoelwebpic.jpeg",
         title: "Poster",
         id: uuidv4(),
         link: "https://www.instagram.com/p/CeBeb36BLV7/", 
