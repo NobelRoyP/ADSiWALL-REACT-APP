@@ -1,3 +1,4 @@
+
 import React from 'react'
 import logo from './favicon.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -40,6 +41,39 @@ const Header = () => {
         MenuSec.style.visibility = "visible"
     }
 
+    const openCategoriesMenu = () => {
+        var CategoriesMenu = document.querySelector(".categories-menu");
+        var CategoriesOpenBtn = document.querySelector(".open-btn");
+        var CategoriesCloseBtn = document.querySelector('.close-btn');
+
+        CategoriesMenu.style.opacity="1";
+        CategoriesMenu.style.pointerEvents="auto";
+        CategoriesOpenBtn.style.display="none";
+        CategoriesCloseBtn.style.display="flex";
+    }
+
+    const closeCategoriesMenu = () => {
+        var CategoriesMenu = document.querySelector('.categories-menu');
+        var CategoriesCloseBtn = document.querySelector('.close-btn');
+        var CategoriesOpenBtn = document.querySelector(".open-btn");
+
+        CategoriesMenu.style.opacity="0";
+        CategoriesMenu.style.pointerEvents="none";
+        CategoriesCloseBtn.style.display="none";
+        CategoriesOpenBtn.style.display="flex";
+    }
+
+    const CategoriesMenuClose = () => {
+        var CategoriesMenu = document.querySelector('.categories-menu');
+        var CategoriesCloseBtn = document.querySelector('.close-btn');
+        var CategoriesOpenBtn = document.querySelector(".open-btn");
+
+        CategoriesMenu.style.opacity="0";
+        CategoriesMenu.style.pointerEvents="none";
+        CategoriesCloseBtn.style.display="none";
+        CategoriesOpenBtn.style.display="flex";
+    }
+
     return (
         <>
             <nav>
@@ -61,9 +95,19 @@ const Header = () => {
                     <Link to="/contact" onClick={onLinkClick}><i className="fa-solid fa-user">Contact</i></Link>
                     <a href="https://allaboutadsiwall.netlify.app/" onClick={onLinkClick}><i className="fa-solid fa-circle-question">Help</i></a>
                 </div>
+                <button className="categories-btn open-btn" onClick={openCategoriesMenu}>Categories <i className="fa-solid fa-chevron-down"></i></button>
+                <button className="categories-btn close-btn" onClick={closeCategoriesMenu}>Categories <i className="fa-solid fa-chevron-down"></i></button>
+                <div className="categories-menu">
+                    <Link to="/" onClick={CategoriesMenuClose}>Instagram</Link><br/>
+                    <Link to="/youtube" onClick={CategoriesMenuClose}>Youtube</Link><br/>
+                    <Link to="/website" onClick={CategoriesMenuClose}>Website</Link><br/>
+                    <Link to="/shoppingsite" onClick={CategoriesMenuClose}>Shopping Site</Link><br/>
+                    <Link to="/facebook" onClick={CategoriesMenuClose}>Facebook</Link><br/>
+                    <Link to="/twitter" onClick={CategoriesMenuClose}>Twitter</Link><br/>
+                    <Link to="/blog" onClick={CategoriesMenuClose}>Blog</Link><br/>
+                </div>
             </nav>
         </>
     )
 }
 export default Header
-
