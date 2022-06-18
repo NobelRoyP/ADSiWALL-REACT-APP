@@ -117,6 +117,7 @@ nav a:hover, Link:hover{
     position: fixed;
     top: 90px;
     left: 0;
+    overflow-y: scroll;
     display: grid;
     place-items: center;
     opacity: 0;
