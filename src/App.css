@@ -91,6 +91,42 @@ nav a:hover, Link:hover{
     font-weight: 700;
     color: white;
 }
+.categories-btn{
+    border: 0;
+    height: 35px;
+    width: 150px;
+    background-color: #1f1b1b;
+    color: white;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.close-btn{
+    display: none;
+}
+.categories-menu{
+    background-color: #1f1b1b;
+    height: auto;
+    width: 150px;
+    padding-top: 15px;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
+.categories-menu a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .About-area {
     padding: 10px;
@@ -167,6 +203,10 @@ nav a:hover, Link:hover{
     display:flex;
     justify-content:center;
     align-items:center;
+    padding-top: 10px;
+}
+.link h5{
+    font-size: 18px;
 }
 .poster .post a{
     text-decoration: none;
