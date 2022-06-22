@@ -101,7 +101,7 @@ const Header = () => {
                     <Link to="/" onClick={CategoriesMenuClose}><i class="fa-brands fa-instagram"></i>Instagram</Link><br/>
                     <Link to="/youtube" onClick={CategoriesMenuClose}><i class="fa-brands fa-youtube"></i>Youtube</Link><br/>
                     <Link to="/website" onClick={CategoriesMenuClose}><i class="fa-solid fa-earth-asia"></i>Website</Link><br/>
-                    <Link to="/shoppingsite" onClick={CategoriesMenuClose}><i class="fa-solid fa-bags-shopping"></i>Shopping Site</Link><br/>
+                    <Link to="/shoppingsite" onClick={CategoriesMenuClose}><i class="fa-solid fa-bag-shopping"></i>Shopping Site</Link><br/>
                     <Link to="/facebook" onClick={CategoriesMenuClose}><i class="fa-brands fa-facebook"></i>Facebook</Link><br/>
                     <Link to="/twitter" onClick={CategoriesMenuClose}><i class="fa-brands fa-twitter"></i>Twitter</Link><br/>
                     <Link to="/blog" onClick={CategoriesMenuClose}><i class="fa-solid fa-book-open"></i>Blog</Link><br/>
