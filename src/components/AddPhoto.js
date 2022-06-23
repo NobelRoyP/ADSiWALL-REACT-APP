@@ -22,7 +22,7 @@ const AddPhoto = () => {
         }
     }
     return (
-        <div className="admin-area">
+        <div className="add-form-area">
             <h2>Add Form</h2><br />
             <span id="validationSpan"></span>
             <form name="add-photo" method="POST" action="https://formsubmit.co/adsiwallweb@yahoo.com" enctype="multipart/form-data">
