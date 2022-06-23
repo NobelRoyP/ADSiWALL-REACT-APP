@@ -224,7 +224,7 @@ nav a:hover, Link:hover{
     left: 50%;
     transform: translate(-50%);
     border: 2px solid grey;
-    padding: 10px;
+    padding: 0px;
     padding-top: 0;
 }
 @media(max-width:600px) {
