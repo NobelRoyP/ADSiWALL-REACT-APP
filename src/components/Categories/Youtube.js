@@ -16,7 +16,7 @@ export class Youtube extends Component {
                                 
                             ))
                         }
-<h3>{Image.nocontent}</h3>
+                    <h3>No Contents Yet...</h3>
                     </div>
 
                 </div>
