@@ -98,8 +98,5 @@ const Images = [
         id: uuidv4(),
         link: "",
     },*/
-    {
-        nocontent: "No Contents Yet", 
-    }
 ]
 export default Images
