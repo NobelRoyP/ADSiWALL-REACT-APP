@@ -258,11 +258,10 @@ nav a:hover, Link:hover{
     }
     .admin-area{
         position: absolute;
-        top: 60px;
+        top: 90px;
         left: 50%;
         transform: translate(-50%);
         border: 0;
-        padding: 10px;
         padding-top: 0;
 }
 
