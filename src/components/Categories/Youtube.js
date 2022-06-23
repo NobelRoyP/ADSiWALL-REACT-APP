@@ -13,6 +13,7 @@ export class Youtube extends Component {
                                     <a href={Image.link}><img src={Image.imgsrc} alt={Image.title} key={Image.id} /></a>
                                     <a href={Image.link}><div className="link"><h5>{Image.category} <i className="fa-solid fa-arrow-up-right-from-square"></i></h5></div></a>
                                 </div>
+                                <h3>{Image.nocontent}</h3>
                             ))
                         }
                     </div>
