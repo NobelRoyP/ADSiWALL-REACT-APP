@@ -218,13 +218,13 @@ nav a:hover, Link:hover{
     text-decoration: none;
     color: white;
 }
-.admin-area{
+.add-form-area{
     position: absolute;
     top: 90px;
     left: 50%;
     transform: translate(-50%);
     border: 2px solid grey;
-    padding: 0px;
+    padding: 10px;
     padding-top: 0;
 }
 @media(max-width:600px) {
@@ -256,7 +256,7 @@ nav a:hover, Link:hover{
         object-fit: cover;
         margin: 10px;
     }
-    .admin-area{
+    .add-form-area{
         position: absolute;
         top: 90px;
         left: 50%;
