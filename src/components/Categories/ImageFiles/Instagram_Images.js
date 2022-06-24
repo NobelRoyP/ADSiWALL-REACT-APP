@@ -77,13 +77,13 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    {
+    /*{
         category: "Instagram",
-        imgsrc: "./Images/favicon.png",
+        imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
-        link: "https://youtube.com/c/AnnsPaperTech",
-    },
+        link: "",
+    },*/
     {
         category: "Instagram",
         imgsrc: "./Images/Iamnoelwebpic.jpeg",
@@ -93,10 +93,10 @@ const Images = [
     },
     {
         category: "Instagram",
-        imgsrc: "./Images/Iamnoelwebpic.jpeg",
+        imgsrc: "./Images/image1.jpg",
         title: "Poster",
         id: uuidv4(),
-        link: "https://nobsownshop.netlify.app",
+        link: "https://www.instagram.com/nobel_roy_p",
     },
 ]
 export default Images
