@@ -118,8 +118,6 @@ nav a:hover, Link:hover{
     top: 90px;
     left: 0;
     overflow-y: scroll;
-    display: grid;
-    place-items: center;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s ease-in-out;
