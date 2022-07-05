@@ -86,14 +86,14 @@ const Images = [
     },*/
     {
         category: "Instagram",
-        imgsrc: "./Images/image_2.png",
+        imgsrc: "./Images/website_images/image_2.png",
         title: "Poster",
         id: uuidv4(),
         link: "https://www.instagram.com/p/CeBeb36BLV7/",
     },
     {
         category: "Instagram",
-        imgsrc: "./Images/image_1.jpg",
+        imgsrc: "./Images/website_images/image_1.jpg",
         title: "Poster",
         id: uuidv4(),
         link: "https://www.instagram.com/nobel_roy_p",
