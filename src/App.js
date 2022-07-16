@@ -10,6 +10,7 @@ import ShoppingSite from './components/Categories/ShoppingSite'
 import Facebook from './components/Categories/Facebook'
 import Twitter from './components/Categories/Twitter'
 import Blog from './components/Categories/Blog'
+import Thanks from './components/Thanks'
 
 import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/facebook" element={<Facebook />} />
           <Route path="/twitter" element={<Twitter />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/thanks" element={<Thanks />} />
         </Routes>
         <Header />
       </Router>
