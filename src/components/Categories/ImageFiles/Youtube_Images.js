@@ -96,7 +96,7 @@ const Images = [
         imgsrc: "./Images/website_images/image_3.jpg",
         title: "Poster",
         id: uuidv4(),
-        link: "",
+        link: "https://youtube.com/c/AnnsPaperTech",
     },
 ]
 export default Images
