@@ -72,31 +72,31 @@ const Images = [
     },*/
     /*{
         category: "Blog", 
-        imgsrc: "./Images/",
+        imgsrc: "./Images/website_images/,
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
     /*{
         category: "Blog", 
-        imgsrc: "./Images/",
+        imgsrc: "./Images/website_images/",
         title: "Poster",
         id: uuidv4(),
         link: "", 
     },*/
-    {
-        category: "Blog",
-        imgsrc: "./Images/Iamnoelwebpic.jpeg",
+    /*{
+        category: "Blog", 
+        imgsrc: "./Images/website_images/",
         title: "Poster",
         id: uuidv4(),
-        link: "",
-    },
-    {
-        category: "Blog",
-        imgsrc: "./Images/favicon.png",
+        link: "", 
+    },*/
+    /*{
+        category: "Blog", 
+        imgsrc: "./Images/website_images/",
         title: "Poster",
         id: uuidv4(),
-        link: "",
-    },
+        link: "", 
+    },*/
 ]
 export default Images
