@@ -84,19 +84,19 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    {
-        category: "Facebook",
-        imgsrc: "./Images/Iamnoelwebpic.jpeg",
+    /*{
+        category: "Facebook", 
+        imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
-        link: "",
-    },
-    {
-        category: "Facebook",
-        imgsrc: "./Images/favicon.png",
+        link: "", 
+    },*/
+    /*{
+        category: "Facebook", 
+        imgsrc: "./Images/",
         title: "Poster",
         id: uuidv4(),
-        link: "",
-    },
+        link: "", 
+    },*/
 ]
 export default Images
