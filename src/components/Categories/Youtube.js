@@ -16,7 +16,7 @@ export class Youtube extends Component {
                                 
                             ))
                         }
-                    <h3></h3>
+                    
                     </div>
 
                 </div>
