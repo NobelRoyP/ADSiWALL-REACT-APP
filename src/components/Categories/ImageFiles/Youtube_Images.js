@@ -91,12 +91,12 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    /*{
+    {
         category: "Youtube",
-        imgsrc: "",
+        imgsrc: "./Images/website_images/image_3.jpg",
         title: "Poster",
         id: uuidv4(),
         link: "",
-    },*/
+    },
 ]
 export default Images
