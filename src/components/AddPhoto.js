@@ -32,7 +32,7 @@ const AddPhoto = () => {
                 </div>
                 <div className="form-group">
                     <label>Category:
-                           <select name="Category" className="form-select">
+                        <select name="Category" className="form-select">
                             <option>Shopping Site</option>
                             <option>Instagram</option>
                             <option>Facebook</option>
@@ -47,7 +47,14 @@ const AddPhoto = () => {
                     <label>Email: <input type="email" name="Email" className="form-control" placeholder="Enter Email" required autoComplete="off" /></label>
                 </div>
                 <div className="form-group">
-                    <label>Phone No: <input type="text" name="Phone" className="form-control" placeholder="enter code first:- +91" required autoComplete="off" /></label>
+                    <label>Country: 
+                        <select name="Country" className="form-select">
+                            <option>India</option>
+                        </select>
+                    </label>
+                </div>
+                <div className="form-group">
+                    <label>Phone No: <input type="text" name="Phone" className="form-control" placeholder="Enter Phone Your Number" required autoComplete="off" /></label>
                 </div>
                 <div className="form-group">
                     <label>Photo of Ad: <input type="file" name="Attachment" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required accept="image/png, image/jpeg" /></label>
