@@ -178,6 +178,9 @@ nav a:hover, Link:hover{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.poster-area h3{
+    margin-top: 15px;
+}
 
 .poster {
     width: 100%;
