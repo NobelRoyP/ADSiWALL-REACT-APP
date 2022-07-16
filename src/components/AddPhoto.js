@@ -57,7 +57,7 @@ const AddPhoto = () => {
                     <label>Phone No: <input type="text" name="Phone" className="form-control" placeholder="Enter Phone Your Number" required autoComplete="off" /></label>
                 </div>
                 <div className="form-group">
-                    <label>Photo of Ad: <input type="file" name="Attachment" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required accept="image/png, image/jpeg" /></label>
+                    <label>Photo of Ad: (9:16 is the recommended size) <input type="file" name="Attachment" className="form-control" style={{ height: "50px" }} onChange={getImagePreview} required accept="image/png, image/jpeg" /></label>
                 </div>
                 <div id="preview">PREVIEW</div>
                 <div className="form-group">
