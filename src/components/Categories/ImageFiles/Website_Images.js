@@ -84,19 +84,19 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    {
+    /*{
         category: "Website",
-        imgsrc: "./Images/Iamnoelwebpic.jpeg",
+        imgsrc: "./Images/website_images/",
         title: "Poster",
         id: uuidv4(),
         link: "",
-    },
-    {
+    },*/
+    /*{
         category: "Website",
-        imgsrc: "./Images/favicon.png",
+        imgsrc: "./Images/website_images/",
         title: "Poster",
         id: uuidv4(),
         link: "",
-    },
+    },*/
 ]
 export default Images
