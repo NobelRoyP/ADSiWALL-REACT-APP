@@ -77,13 +77,13 @@ const Images = [
         id: uuidv4(),
         link: "", 
     },*/
-    /*{
+    {
         category: "Youtube", 
-        imgsrc: "./Images/",
+        imgsrc: "./Images/website_images/image_5.jpg",
         title: "Poster",
         id: uuidv4(),
-        link: "", 
-    },*/
+        link: "https://youtube.com/channel/UCpMcsXwMVYqG_Gn8_qRaM3A", 
+    },
     {
         category: "Youtube", 
         imgsrc: "./Images/website_images/image_4.jpg",
